@@ -20,6 +20,7 @@ return {
       return opts
     end,
   },
+  require("user.plugins.kanagawa"),
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
   --
