@@ -5,8 +5,20 @@ return {
     relativenumber = true, -- sets vim.opt.relativenumber
     number = true, -- sets vim.opt.number
     spell = false, -- sets vim.opt.spell
-    signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    -- tab width
+    tabstop = 4,
+    softtabstop = 4,
+    shiftwidth = 4,
+    expandtab = true,
+    smartindent = true,
+    -- misc
+    nu = true,
+    termguicolors = true,
+    scrolloff = 8,
+    signcolumn = "yes",
+    colorcolumn = "80",
+    virtualedit = "onemore",
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
