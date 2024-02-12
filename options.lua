@@ -19,6 +19,7 @@ return {
     signcolumn = "yes",
     colorcolumn = "80",
     virtualedit = "onemore",
+    guicursor = "",
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
